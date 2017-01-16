@@ -1,0 +1,1081 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10EB23E9ECC4B33E16933BB1EA560B6A /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = E296AA8FC34439A139AFB8256AEAAED6 /* Timeline.swift */; };
+		1473B5107929B57E39DA0461F6926376 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		1AF68A9A50CB6E1C54BAF338F9070138 /* SCLAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F052772FAA0E9C7B9D56ACFE0C3B8C8 /* SCLAlertView.swift */; };
+		1B9EDEDC964E6B08F78920B4F4B9DB84 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B8203F579F09029258B1318B25247CD /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C4B0146D6CAB33E8D8E842CADA8AAE4 /* Pods-weacastTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CDDD57A0E6718C89D5A6086E41AB0D4 /* Pods-weacastTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1EAE7358A718445537B757BA3DB494C3 /* Pods-weacast-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 826E686C798863D9E8B1EC830EEFA529 /* Pods-weacast-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3626B94094672CB1C9DEA32B9F9502E1 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A63F9ECE313359F02CB8300B7BE0574 /* TaskDelegate.swift */; };
+		5387216E723A3C68E851CA15573CDD71 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E14D8E47BE9BF9F5EAE04809987EB42 /* Request.swift */; };
+		61200D01A1855D7920CEF835C8BE00B0 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787F4C7FCF15DC1C5AC0BC67F15FE5A6 /* DispatchQueue+Alamofire.swift */; };
+		62F65AD8DC4F0F9610F4B8B4738EC094 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8A2B588734A64D34000273AC01DF64 /* ServerTrustPolicy.swift */; };
+		640285BE1BE658764A6DE2252B499678 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		6C2C68C2AEA519254F05812D90F5D8DE /* SCLAlertView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E7385AAF12DDD07E0AB84114F90F17FE /* SCLAlertView-dummy.m */; };
+		7B5FE28C7EA4122B0598738E54DBEBD8 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F6DC720ACE74601BE0216B46C1956C /* SessionDelegate.swift */; };
+		7D8CC01E8C9EFFF9F4D65406CDE0AB66 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41CA50D3C9FCC7AEDB31BB4F70CAB7D6 /* Result.swift */; };
+		88CAD5EB85A73877FE77B4EB8ECA79E4 /* Pods-weacast-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 47972450333D6C3497D29D6B834B97FC /* Pods-weacast-dummy.m */; };
+		8D32D0E042D94D988F84C30228ED0DB3 /* SCLAlertView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D39B7ACA544AC587044B1D0399E936B7 /* SCLAlertView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9234877974D43F555A6B4D99A3AE3306 /* Pods-weacastTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E40AB2047AA9D66A9526E9D977A28D26 /* Pods-weacastTests-dummy.m */; };
+		9DBBB43F45B89A2DEFF2F169ADB821EA /* Pods-weacastUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B380E77C7709E516AD837FF4F4BD07A6 /* Pods-weacastUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9ED2BB2981896E0A39EFA365503F58CE /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223419FF8F05A6454B615A0612AAF162 /* AFError.swift */; };
+		A04BFC558D69E7DBB68023C80A9CFE4E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		A2A6F71B727312BD45CC7A4AAD7B0AB7 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F456560D68F54A6DF28310BB9ED4C6 /* NetworkReachabilityManager.swift */; };
+		A9EEEA7477981DEEBC72432DE9990A4B /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 38808E0866B0838B8E004E109A1A3566 /* Alamofire-dummy.m */; };
+		AE1EF48399533730D0066E04B22CA2D6 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0AC75B69CF23070C91482B5096E915 /* SessionManager.swift */; };
+		B65FCF589DA398C3EFE0128064E510EC /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B61CDFEAC219F153B76C8DB57A92D8 /* MultipartFormData.swift */; };
+		BBEFE2F9CEB73DC7BD97FFA66A0D9D4F /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B4F22AA7C54513C2236E1A90FDD0D9 /* Validation.swift */; };
+		BE5C67A07E289FE1F9BE27335B159997 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD80F1CE3FD15A76273462A81E7E152 /* ParameterEncoding.swift */; };
+		CB6D60925223897FFA2662667DF83E8A /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93AE3EA5C8FDF5C4940DB2F87ED62EB /* Response.swift */; };
+		DDC4D9D5D3889D247CEEC264138DDB30 /* SCLExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E736538DA2431D57455C6BADC198AA2 /* SCLExtensions.swift */; };
+		DE549F506CFCCA122C0A08BE78DD85D3 /* Pods-weacastUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C24110E8DC6229B833E5168BAB5C03 /* Pods-weacastUITests-dummy.m */; };
+		E1A985F320C9F86CA5B555AD3C4AFA75 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		EFD264FC408EBF3BA2528E70B08DDD94 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476FC1A8B9BDE784AED555237BA4F28E /* Notifications.swift */; };
+		F6BECD98B97CBFEBE2C96F0E9E72A6C0 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DFF08D053CF9ECBAB14010C84EEA50 /* ResponseSerialization.swift */; };
+		F8B3D3092ED0417E8CDF32033F6122F5 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A888C1DA574EB87A07FE132B5E9F762 /* Alamofire.swift */; };
+		FAD285996F698B80E01E2C5D2176BDDA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		262AC1030E9CC05BD39341DE92833730 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88E9EC28B8B46C3631E6B242B50F4442;
+			remoteInfo = Alamofire;
+		};
+		E836C30359A59EBFE6A491DA9430DE92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8553267F8BEB2F9180C6FA4454C13E61;
+			remoteInfo = SCLAlertView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0FB585E0C0315CCF988885BACFFE0513 /* Pods-weacast.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-weacast.modulemap"; sourceTree = "<group>"; };
+		15DFF08D053CF9ECBAB14010C84EEA50 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		1EBE4B82F07D0D38AB6E6F12D426A487 /* Pods-weacastTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-weacastTests.debug.xcconfig"; sourceTree = "<group>"; };
+		20C6572D919A824E9D7B5FDD25A7930F /* Pods-weacastUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-weacastUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		223419FF8F05A6454B615A0612AAF162 /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
+		27646FFEC83C951DE9EAC307B017307C /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		29A2E63FFA39E45776A40EEB4901ED5E /* Pods-weacastUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-weacastUITests-resources.sh"; sourceTree = "<group>"; };
+		2E14D8E47BE9BF9F5EAE04809987EB42 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		38808E0866B0838B8E004E109A1A3566 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
+		3E74734361D6EAD325BA6C78CD256D6D /* Pods-weacastUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-weacastUITests.modulemap"; sourceTree = "<group>"; };
+		41CA50D3C9FCC7AEDB31BB4F70CAB7D6 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
+		42A4A0C565DCDF4C0A1382EC479D37F7 /* Pods-weacast-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-weacast-resources.sh"; sourceTree = "<group>"; };
+		44F456560D68F54A6DF28310BB9ED4C6 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		461B3BAC07B597CF349238558FCF9DD1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		476FC1A8B9BDE784AED555237BA4F28E /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
+		47972450333D6C3497D29D6B834B97FC /* Pods-weacast-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-weacast-dummy.m"; sourceTree = "<group>"; };
+		49E5150C9E81A2B40C04882BE43CAF03 /* Pods-weacast-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-weacast-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4A888C1DA574EB87A07FE132B5E9F762 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		4E736538DA2431D57455C6BADC198AA2 /* SCLExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SCLExtensions.swift; path = SCLAlertView/SCLExtensions.swift; sourceTree = "<group>"; };
+		4F9E79C2090C8EF3FA698FB33AA57256 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FDEE9DC3CDB7791C74D286BA023CEEC /* SCLAlertView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SCLAlertView.framework; path = SCLAlertView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		53BBB9AA49E1B174A8D7618FD5AE3EC0 /* Pods-weacastUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-weacastUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5A63F9ECE313359F02CB8300B7BE0574 /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
+		5B8203F579F09029258B1318B25247CD /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		5E1D6D46E5EE86D30635B11C41517F24 /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
+		5F052772FAA0E9C7B9D56ACFE0C3B8C8 /* SCLAlertView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SCLAlertView.swift; path = SCLAlertView/SCLAlertView.swift; sourceTree = "<group>"; };
+		61DC7B92666DD0B78D60E89C8DFA240D /* Pods-weacast-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-weacast-frameworks.sh"; sourceTree = "<group>"; };
+		69C24110E8DC6229B833E5168BAB5C03 /* Pods-weacastUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-weacastUITests-dummy.m"; sourceTree = "<group>"; };
+		6AFD3B09513DAC190521BBE9855B83BB /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		6DD8A9BCD5A66655260C2E681CD1C41E /* Pods-weacast-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-weacast-acknowledgements.plist"; sourceTree = "<group>"; };
+		7122F2FF3E6E35BF1109E8A2057F6B0E /* Pods-weacastUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-weacastUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		74F6DC720ACE74601BE0216B46C1956C /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
+		787F4C7FCF15DC1C5AC0BC67F15FE5A6 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		79B61CDFEAC219F153B76C8DB57A92D8 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
+		7CDDD57A0E6718C89D5A6086E41AB0D4 /* Pods-weacastTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-weacastTests-umbrella.h"; sourceTree = "<group>"; };
+		7CEB5C66A69171CF146F150AB931ECA7 /* Pods-weacastTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-weacastTests.release.xcconfig"; sourceTree = "<group>"; };
+		7F5EADB08E156C06D91EAC3BA8A636CA /* Pods_weacastTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_weacastTests.framework; path = "Pods-weacastTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81A1B7B0A8223B6B47D5BC145AECCE24 /* Pods_weacast.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_weacast.framework; path = "Pods-weacast.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		826E686C798863D9E8B1EC830EEFA529 /* Pods-weacast-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-weacast-umbrella.h"; sourceTree = "<group>"; };
+		86839713848FDDEC53A41CC11EEFD6E5 /* Pods-weacast.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-weacast.debug.xcconfig"; sourceTree = "<group>"; };
+		89C02A12F33E18E8B9130453EC56E77E /* SCLAlertView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SCLAlertView.xcconfig; sourceTree = "<group>"; };
+		8A3A662EFE15780CBE87A5F19595E1A6 /* Pods-weacastTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-weacastTests.modulemap"; sourceTree = "<group>"; };
+		900415827159CEF27FBBA21437DCF606 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E6BC6B90F1825F0551C05F25B912478 /* Pods-weacastUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-weacastUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A80B8ED68561F9A0D5AF2B69AB7B5CD8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF8A2B588734A64D34000273AC01DF64 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		B380E77C7709E516AD837FF4F4BD07A6 /* Pods-weacastUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-weacastUITests-umbrella.h"; sourceTree = "<group>"; };
+		B9B21C7880D5528FCA9E1885064E149D /* Pods-weacastTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-weacastTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C25DE7B6A6EC5692FA37B06AB3751633 /* Pods-weacastTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-weacastTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C55FD7DEF7C513F4F743BBB32A9C6022 /* Pods-weacastTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-weacastTests-resources.sh"; sourceTree = "<group>"; };
+		CA2612A5661BD0F9379E315B02C2FB9B /* SCLAlertView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SCLAlertView.modulemap; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CBE4DB9D282E2AB92DC8D43266F917EF /* SCLAlertView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SCLAlertView-prefix.pch"; sourceTree = "<group>"; };
+		D3890CE8D5C17A1F50B40181306D670E /* Pods-weacast.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-weacast.release.xcconfig"; sourceTree = "<group>"; };
+		D39B7ACA544AC587044B1D0399E936B7 /* SCLAlertView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SCLAlertView-umbrella.h"; sourceTree = "<group>"; };
+		D8B4F22AA7C54513C2236E1A90FDD0D9 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		DA0AC75B69CF23070C91482B5096E915 /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
+		DB4A8C67623C7AA7158C1FA7456FFE17 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		DEA23F8F36BEE7C4017C40508062BA50 /* Pods_weacastUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_weacastUITests.framework; path = "Pods-weacastUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0CF689156DF5A2701346933C355BBB7 /* Pods-weacastUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-weacastUITests-frameworks.sh"; sourceTree = "<group>"; };
+		E296AA8FC34439A139AFB8256AEAAED6 /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
+		E40AB2047AA9D66A9526E9D977A28D26 /* Pods-weacastTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-weacastTests-dummy.m"; sourceTree = "<group>"; };
+		E68C0204377785D8D73142332EA9C3FD /* Pods-weacastTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-weacastTests-frameworks.sh"; sourceTree = "<group>"; };
+		E7385AAF12DDD07E0AB84114F90F17FE /* SCLAlertView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SCLAlertView-dummy.m"; sourceTree = "<group>"; };
+		E79C4EF1960F5F82D1B5F5D33131499E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E93AE3EA5C8FDF5C4940DB2F87ED62EB /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		EDD80F1CE3FD15A76273462A81E7E152 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2577185CA726BE0604B4C00347E5BC0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1A985F320C9F86CA5B555AD3C4AFA75 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AE5D034AA3716A69A81DAC9C8EE3988 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				640285BE1BE658764A6DE2252B499678 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C0FD6CEFAB714B06E9A482D310E0120 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1473B5107929B57E39DA0461F6926376 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FCAAA1C9081331D8F695D03BCF3D0C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD285996F698B80E01E2C5D2176BDDA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99195E4207764744AEC07ECCBCD550EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A04BFC558D69E7DBB68023C80A9CFE4E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12C4E9F94713307D70C64C480D9A0080 /* Pods-weacastTests */ = {
+			isa = PBXGroup;
+			children = (
+				A80B8ED68561F9A0D5AF2B69AB7B5CD8 /* Info.plist */,
+				8A3A662EFE15780CBE87A5F19595E1A6 /* Pods-weacastTests.modulemap */,
+				B9B21C7880D5528FCA9E1885064E149D /* Pods-weacastTests-acknowledgements.markdown */,
+				C25DE7B6A6EC5692FA37B06AB3751633 /* Pods-weacastTests-acknowledgements.plist */,
+				E40AB2047AA9D66A9526E9D977A28D26 /* Pods-weacastTests-dummy.m */,
+				E68C0204377785D8D73142332EA9C3FD /* Pods-weacastTests-frameworks.sh */,
+				C55FD7DEF7C513F4F743BBB32A9C6022 /* Pods-weacastTests-resources.sh */,
+				7CDDD57A0E6718C89D5A6086E41AB0D4 /* Pods-weacastTests-umbrella.h */,
+				1EBE4B82F07D0D38AB6E6F12D426A487 /* Pods-weacastTests.debug.xcconfig */,
+				7CEB5C66A69171CF146F150AB931ECA7 /* Pods-weacastTests.release.xcconfig */,
+			);
+			name = "Pods-weacastTests";
+			path = "Target Support Files/Pods-weacastTests";
+			sourceTree = "<group>";
+		};
+		24E4F4D76A039D405DB787A37C188498 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				461B3BAC07B597CF349238558FCF9DD1 /* Info.plist */,
+				CA2612A5661BD0F9379E315B02C2FB9B /* SCLAlertView.modulemap */,
+				89C02A12F33E18E8B9130453EC56E77E /* SCLAlertView.xcconfig */,
+				E7385AAF12DDD07E0AB84114F90F17FE /* SCLAlertView-dummy.m */,
+				CBE4DB9D282E2AB92DC8D43266F917EF /* SCLAlertView-prefix.pch */,
+				D39B7ACA544AC587044B1D0399E936B7 /* SCLAlertView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SCLAlertView";
+			sourceTree = "<group>";
+		};
+		2ED0E4AAE293D869C27592AB586FABFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27646FFEC83C951DE9EAC307B017307C /* Alamofire.framework */,
+				81A1B7B0A8223B6B47D5BC145AECCE24 /* Pods_weacast.framework */,
+				7F5EADB08E156C06D91EAC3BA8A636CA /* Pods_weacastTests.framework */,
+				DEA23F8F36BEE7C4017C40508062BA50 /* Pods_weacastUITests.framework */,
+				4FDEE9DC3CDB7791C74D286BA023CEEC /* SCLAlertView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38D1BFDC2427AC8A66B6A0A6F55970BE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB4A8C67623C7AA7158C1FA7456FFE17 /* Alamofire.modulemap */,
+				5E1D6D46E5EE86D30635B11C41517F24 /* Alamofire.xcconfig */,
+				38808E0866B0838B8E004E109A1A3566 /* Alamofire-dummy.m */,
+				6AFD3B09513DAC190521BBE9855B83BB /* Alamofire-prefix.pch */,
+				5B8203F579F09029258B1318B25247CD /* Alamofire-umbrella.h */,
+				E79C4EF1960F5F82D1B5F5D33131499E /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Alamofire";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				7FEAC08FD5053F2574FDA6BF42B97B2A /* Pods */,
+				2ED0E4AAE293D869C27592AB586FABFB /* Products */,
+				CCBB17E101408653184E505FA0A651F5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7FEAC08FD5053F2574FDA6BF42B97B2A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EFED286CC9EAE3C45B4D0D223BE716A9 /* Alamofire */,
+				AB267711CBA367A4B2B032E0DE458175 /* SCLAlertView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8C526348C7E82E8D695EFA5719583313 /* Pods-weacastUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4F9E79C2090C8EF3FA698FB33AA57256 /* Info.plist */,
+				3E74734361D6EAD325BA6C78CD256D6D /* Pods-weacastUITests.modulemap */,
+				9E6BC6B90F1825F0551C05F25B912478 /* Pods-weacastUITests-acknowledgements.markdown */,
+				20C6572D919A824E9D7B5FDD25A7930F /* Pods-weacastUITests-acknowledgements.plist */,
+				69C24110E8DC6229B833E5168BAB5C03 /* Pods-weacastUITests-dummy.m */,
+				E0CF689156DF5A2701346933C355BBB7 /* Pods-weacastUITests-frameworks.sh */,
+				29A2E63FFA39E45776A40EEB4901ED5E /* Pods-weacastUITests-resources.sh */,
+				B380E77C7709E516AD837FF4F4BD07A6 /* Pods-weacastUITests-umbrella.h */,
+				7122F2FF3E6E35BF1109E8A2057F6B0E /* Pods-weacastUITests.debug.xcconfig */,
+				53BBB9AA49E1B174A8D7618FD5AE3EC0 /* Pods-weacastUITests.release.xcconfig */,
+			);
+			name = "Pods-weacastUITests";
+			path = "Target Support Files/Pods-weacastUITests";
+			sourceTree = "<group>";
+		};
+		AB267711CBA367A4B2B032E0DE458175 /* SCLAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				5F052772FAA0E9C7B9D56ACFE0C3B8C8 /* SCLAlertView.swift */,
+				4E736538DA2431D57455C6BADC198AA2 /* SCLExtensions.swift */,
+				24E4F4D76A039D405DB787A37C188498 /* Support Files */,
+			);
+			name = SCLAlertView;
+			path = SCLAlertView;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C68A2D9520C81DCBE2F61CE94AD608B7 /* Pods-weacast */ = {
+			isa = PBXGroup;
+			children = (
+				900415827159CEF27FBBA21437DCF606 /* Info.plist */,
+				0FB585E0C0315CCF988885BACFFE0513 /* Pods-weacast.modulemap */,
+				49E5150C9E81A2B40C04882BE43CAF03 /* Pods-weacast-acknowledgements.markdown */,
+				6DD8A9BCD5A66655260C2E681CD1C41E /* Pods-weacast-acknowledgements.plist */,
+				47972450333D6C3497D29D6B834B97FC /* Pods-weacast-dummy.m */,
+				61DC7B92666DD0B78D60E89C8DFA240D /* Pods-weacast-frameworks.sh */,
+				42A4A0C565DCDF4C0A1382EC479D37F7 /* Pods-weacast-resources.sh */,
+				826E686C798863D9E8B1EC830EEFA529 /* Pods-weacast-umbrella.h */,
+				86839713848FDDEC53A41CC11EEFD6E5 /* Pods-weacast.debug.xcconfig */,
+				D3890CE8D5C17A1F50B40181306D670E /* Pods-weacast.release.xcconfig */,
+			);
+			name = "Pods-weacast";
+			path = "Target Support Files/Pods-weacast";
+			sourceTree = "<group>";
+		};
+		CCBB17E101408653184E505FA0A651F5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C68A2D9520C81DCBE2F61CE94AD608B7 /* Pods-weacast */,
+				12C4E9F94713307D70C64C480D9A0080 /* Pods-weacastTests */,
+				8C526348C7E82E8D695EFA5719583313 /* Pods-weacastUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		EFED286CC9EAE3C45B4D0D223BE716A9 /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				223419FF8F05A6454B615A0612AAF162 /* AFError.swift */,
+				4A888C1DA574EB87A07FE132B5E9F762 /* Alamofire.swift */,
+				787F4C7FCF15DC1C5AC0BC67F15FE5A6 /* DispatchQueue+Alamofire.swift */,
+				79B61CDFEAC219F153B76C8DB57A92D8 /* MultipartFormData.swift */,
+				44F456560D68F54A6DF28310BB9ED4C6 /* NetworkReachabilityManager.swift */,
+				476FC1A8B9BDE784AED555237BA4F28E /* Notifications.swift */,
+				EDD80F1CE3FD15A76273462A81E7E152 /* ParameterEncoding.swift */,
+				2E14D8E47BE9BF9F5EAE04809987EB42 /* Request.swift */,
+				E93AE3EA5C8FDF5C4940DB2F87ED62EB /* Response.swift */,
+				15DFF08D053CF9ECBAB14010C84EEA50 /* ResponseSerialization.swift */,
+				41CA50D3C9FCC7AEDB31BB4F70CAB7D6 /* Result.swift */,
+				AF8A2B588734A64D34000273AC01DF64 /* ServerTrustPolicy.swift */,
+				74F6DC720ACE74601BE0216B46C1956C /* SessionDelegate.swift */,
+				DA0AC75B69CF23070C91482B5096E915 /* SessionManager.swift */,
+				5A63F9ECE313359F02CB8300B7BE0574 /* TaskDelegate.swift */,
+				E296AA8FC34439A139AFB8256AEAAED6 /* Timeline.swift */,
+				D8B4F22AA7C54513C2236E1A90FDD0D9 /* Validation.swift */,
+				38D1BFDC2427AC8A66B6A0A6F55970BE /* Support Files */,
+			);
+			name = Alamofire;
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1A0FAD684F4379B3E6E08755293FF0BC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DBBB43F45B89A2DEFF2F169ADB821EA /* Pods-weacastUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34B7209FD9BD578478AE071D1F52E743 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EAE7358A718445537B757BA3DB494C3 /* Pods-weacast-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4002B6E97835FDCCAA5963EFE09A3E0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B9EDEDC964E6B08F78920B4F4B9DB84 /* Alamofire-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBEA39A7D8B62F2C44CEE7A13065487E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C4B0146D6CAB33E8D8E842CADA8AAE4 /* Pods-weacastTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1BA36F85DB08B7F36A6CFE14E673D9C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D32D0E042D94D988F84C30228ED0DB3 /* SCLAlertView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		08B0C8336107BBBC27F8F11297F03185 /* Pods-weacastTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD4343D56D358DD731E82B9A88689053 /* Build configuration list for PBXNativeTarget "Pods-weacastTests" */;
+			buildPhases = (
+				0CC51092AADE37FAB1D3183BE058FF49 /* Sources */,
+				2577185CA726BE0604B4C00347E5BC0F /* Frameworks */,
+				CBEA39A7D8B62F2C44CEE7A13065487E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-weacastTests";
+			productName = "Pods-weacastTests";
+			productReference = 7F5EADB08E156C06D91EAC3BA8A636CA /* Pods_weacastTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1AC3D0D41E78A3FFFABBF1A97F38B098 /* Pods-weacast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAE70F69E1703284549012BA1B83E11B /* Build configuration list for PBXNativeTarget "Pods-weacast" */;
+			buildPhases = (
+				83181DC65C4D2384AA01EB07113CED46 /* Sources */,
+				6C0FD6CEFAB714B06E9A482D310E0120 /* Frameworks */,
+				34B7209FD9BD578478AE071D1F52E743 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5823F5C9F1F841B9DD475BCB66E6B918 /* PBXTargetDependency */,
+				C94AE7BE26F4E915BE83788903B3690D /* PBXTargetDependency */,
+			);
+			name = "Pods-weacast";
+			productName = "Pods-weacast";
+			productReference = 81A1B7B0A8223B6B47D5BC145AECCE24 /* Pods_weacast.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		20AF1C7DE2D377F20A739AD778B32B98 /* Pods-weacastUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15481F38FBA2D451504E52DCB50151C8 /* Build configuration list for PBXNativeTarget "Pods-weacastUITests" */;
+			buildPhases = (
+				25CB26CF7A7B08D8778435C127819121 /* Sources */,
+				6FCAAA1C9081331D8F695D03BCF3D0C1 /* Frameworks */,
+				1A0FAD684F4379B3E6E08755293FF0BC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-weacastUITests";
+			productName = "Pods-weacastUITests";
+			productReference = DEA23F8F36BEE7C4017C40508062BA50 /* Pods_weacastUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8553267F8BEB2F9180C6FA4454C13E61 /* SCLAlertView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A605DAC2202FA6029956EA2D49C4DE0 /* Build configuration list for PBXNativeTarget "SCLAlertView" */;
+			buildPhases = (
+				EB65D3BD0BA3B0A88A5B44D6C14478C5 /* Sources */,
+				3AE5D034AA3716A69A81DAC9C8EE3988 /* Frameworks */,
+				D1BA36F85DB08B7F36A6CFE14E673D9C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SCLAlertView;
+			productName = SCLAlertView;
+			productReference = 4FDEE9DC3CDB7791C74D286BA023CEEC /* SCLAlertView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 419E5D95491847CD79841B971A8A3277 /* Build configuration list for PBXNativeTarget "Alamofire" */;
+			buildPhases = (
+				32B9974868188C4803318E36329C87FE /* Sources */,
+				99195E4207764744AEC07ECCBCD550EB /* Frameworks */,
+				B4002B6E97835FDCCAA5963EFE09A3E0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Alamofire;
+			productName = Alamofire;
+			productReference = 27646FFEC83C951DE9EAC307B017307C /* Alamofire.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 2ED0E4AAE293D869C27592AB586FABFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */,
+				1AC3D0D41E78A3FFFABBF1A97F38B098 /* Pods-weacast */,
+				08B0C8336107BBBC27F8F11297F03185 /* Pods-weacastTests */,
+				20AF1C7DE2D377F20A739AD778B32B98 /* Pods-weacastUITests */,
+				8553267F8BEB2F9180C6FA4454C13E61 /* SCLAlertView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0CC51092AADE37FAB1D3183BE058FF49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9234877974D43F555A6B4D99A3AE3306 /* Pods-weacastTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25CB26CF7A7B08D8778435C127819121 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE549F506CFCCA122C0A08BE78DD85D3 /* Pods-weacastUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32B9974868188C4803318E36329C87FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ED2BB2981896E0A39EFA365503F58CE /* AFError.swift in Sources */,
+				A9EEEA7477981DEEBC72432DE9990A4B /* Alamofire-dummy.m in Sources */,
+				F8B3D3092ED0417E8CDF32033F6122F5 /* Alamofire.swift in Sources */,
+				61200D01A1855D7920CEF835C8BE00B0 /* DispatchQueue+Alamofire.swift in Sources */,
+				B65FCF589DA398C3EFE0128064E510EC /* MultipartFormData.swift in Sources */,
+				A2A6F71B727312BD45CC7A4AAD7B0AB7 /* NetworkReachabilityManager.swift in Sources */,
+				EFD264FC408EBF3BA2528E70B08DDD94 /* Notifications.swift in Sources */,
+				BE5C67A07E289FE1F9BE27335B159997 /* ParameterEncoding.swift in Sources */,
+				5387216E723A3C68E851CA15573CDD71 /* Request.swift in Sources */,
+				CB6D60925223897FFA2662667DF83E8A /* Response.swift in Sources */,
+				F6BECD98B97CBFEBE2C96F0E9E72A6C0 /* ResponseSerialization.swift in Sources */,
+				7D8CC01E8C9EFFF9F4D65406CDE0AB66 /* Result.swift in Sources */,
+				62F65AD8DC4F0F9610F4B8B4738EC094 /* ServerTrustPolicy.swift in Sources */,
+				7B5FE28C7EA4122B0598738E54DBEBD8 /* SessionDelegate.swift in Sources */,
+				AE1EF48399533730D0066E04B22CA2D6 /* SessionManager.swift in Sources */,
+				3626B94094672CB1C9DEA32B9F9502E1 /* TaskDelegate.swift in Sources */,
+				10EB23E9ECC4B33E16933BB1EA560B6A /* Timeline.swift in Sources */,
+				BBEFE2F9CEB73DC7BD97FFA66A0D9D4F /* Validation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83181DC65C4D2384AA01EB07113CED46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88CAD5EB85A73877FE77B4EB8ECA79E4 /* Pods-weacast-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB65D3BD0BA3B0A88A5B44D6C14478C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C2C68C2AEA519254F05812D90F5D8DE /* SCLAlertView-dummy.m in Sources */,
+				1AF68A9A50CB6E1C54BAF338F9070138 /* SCLAlertView.swift in Sources */,
+				DDC4D9D5D3889D247CEEC264138DDB30 /* SCLExtensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5823F5C9F1F841B9DD475BCB66E6B918 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = 88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */;
+			targetProxy = 262AC1030E9CC05BD39341DE92833730 /* PBXContainerItemProxy */;
+		};
+		C94AE7BE26F4E915BE83788903B3690D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SCLAlertView;
+			target = 8553267F8BEB2F9180C6FA4454C13E61 /* SCLAlertView */;
+			targetProxy = E836C30359A59EBFE6A491DA9430DE92 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		12914D756594D15C6F2CA12FE5F89F1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4D2944D0119F08A85608754634180092 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53BBB9AA49E1B174A8D7618FD5AE3EC0 /* Pods-weacastUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-weacastUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-weacastUITests/Pods-weacastUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_weacastUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5CB1AAF1D790D69A646A05C45D60EBB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86839713848FDDEC53A41CC11EEFD6E5 /* Pods-weacast.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-weacast/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-weacast/Pods-weacast.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_weacast;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		607DB81732C896EDA8E76E155AD45673 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CEB5C66A69171CF146F150AB931ECA7 /* Pods-weacastTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-weacastTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-weacastTests/Pods-weacastTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_weacastTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		621A10F5C0A994B466277661C1B2C19F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E1D6D46E5EE86D30635B11C41517F24 /* Alamofire.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7DB11C27F55A60C3C1A588E6857FCCFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3890CE8D5C17A1F50B40181306D670E /* Pods-weacast.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-weacast/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-weacast/Pods-weacast.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_weacast;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8C48CCCB862EC56A4174F6E1715688C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E1D6D46E5EE86D30635B11C41517F24 /* Alamofire.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A6CB69E88AA35A861D8AF6C63DCBD837 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7122F2FF3E6E35BF1109E8A2057F6B0E /* Pods-weacastUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-weacastUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-weacastUITests/Pods-weacastUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_weacastUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AD0EF268770A63126FAB0E50619587B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89C02A12F33E18E8B9130453EC56E77E /* SCLAlertView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SCLAlertView/SCLAlertView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SCLAlertView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SCLAlertView/SCLAlertView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SCLAlertView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BAC01D8231B5A3C8F46933F5380B5530 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89C02A12F33E18E8B9130453EC56E77E /* SCLAlertView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SCLAlertView/SCLAlertView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SCLAlertView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SCLAlertView/SCLAlertView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SCLAlertView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E72E7977875C2D251FC62736BBDDC389 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF1E0D974041F805D09E1643F0B10186 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EBE4B82F07D0D38AB6E6F12D426A487 /* Pods-weacastTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-weacastTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-weacastTests/Pods-weacastTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_weacastTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A605DAC2202FA6029956EA2D49C4DE0 /* Build configuration list for PBXNativeTarget "SCLAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAC01D8231B5A3C8F46933F5380B5530 /* Debug */,
+				AD0EF268770A63126FAB0E50619587B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15481F38FBA2D451504E52DCB50151C8 /* Build configuration list for PBXNativeTarget "Pods-weacastUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6CB69E88AA35A861D8AF6C63DCBD837 /* Debug */,
+				4D2944D0119F08A85608754634180092 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12914D756594D15C6F2CA12FE5F89F1B /* Debug */,
+				E72E7977875C2D251FC62736BBDDC389 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		419E5D95491847CD79841B971A8A3277 /* Build configuration list for PBXNativeTarget "Alamofire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C48CCCB862EC56A4174F6E1715688C9 /* Debug */,
+				621A10F5C0A994B466277661C1B2C19F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAE70F69E1703284549012BA1B83E11B /* Build configuration list for PBXNativeTarget "Pods-weacast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CB1AAF1D790D69A646A05C45D60EBB6 /* Debug */,
+				7DB11C27F55A60C3C1A588E6857FCCFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD4343D56D358DD731E82B9A88689053 /* Build configuration list for PBXNativeTarget "Pods-weacastTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF1E0D974041F805D09E1643F0B10186 /* Debug */,
+				607DB81732C896EDA8E76E155AD45673 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
