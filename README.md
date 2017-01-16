@@ -1,16 +1,16 @@
-##Weather Forecast App for iPhone 
+#Weather Forecast App for iPhone 
 Provides Current Weather information plus a 4-day Weather forecast for a given city.
 
 ##Appstore link : https://itunes.apple.com/us/app/weacast/id1193385788?mt=8
 
-####Features:
+###Features:
 #####-Current Weather and Date information for unlimited number of cities.
 #####-Information on Wind speed,Humidity,Precipitation details.
 #####-Minimum and Maximum Temperature for the next 4 days for a given city.
 #####-Uses openweather API.
 #####-iPhone Application - Supports on all iPhone devices running iOS 10+
 
-####ScreenShots:
+###ScreenShots:
 
 ![image](https://cloud.githubusercontent.com/assets/11078225/21992752/ae52bedc-dbe5-11e6-8fbe-e73544846c0e.png)
 
