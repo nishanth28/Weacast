@@ -3,6 +3,10 @@ Provides Current Weather information plus a 4-day Weather forecast for a given c
 
 ##Appstore link : https://itunes.apple.com/us/app/weacast/id1193385788?mt=8
 
+##App icon
+
+![github_weacast](https://cloud.githubusercontent.com/assets/11078225/22038977/52bf918a-dccb-11e6-9e9d-c309c966aa5d.png)
+
 ###Features:
 #####-Current Weather and Date information for unlimited number of cities.
 #####-Information on Wind speed,Humidity,Precipitation details.
