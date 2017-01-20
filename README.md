@@ -16,10 +16,5 @@ Provides Current Weather information plus a 4-day Weather forecast for a given c
 
 ###ScreenShots:
 
-![image](https://cloud.githubusercontent.com/assets/11078225/21992752/ae52bedc-dbe5-11e6-8fbe-e73544846c0e.png)
+![weacast-mk1](https://cloud.githubusercontent.com/assets/11078225/22161804/e2afecc2-df19-11e6-931e-32833c08d69c.png) ![weacast-mk2](https://cloud.githubusercontent.com/assets/11078225/22161908/4b0fa2da-df1a-11e6-92f1-bebced463132.png)  ![weacast-mk4](https://cloud.githubusercontent.com/assets/11078225/22161918/57a2e962-df1a-11e6-9711-2346f2bf7cd7.png) ![weacast-mk3](https://cloud.githubusercontent.com/assets/11078225/22161912/5153826a-df1a-11e6-9931-2d4b1f4204a4.png)
 
-![image](https://cloud.githubusercontent.com/assets/11078225/21992794/d59ba3f0-dbe5-11e6-9746-8f363a52e006.png)
-
-![image](https://cloud.githubusercontent.com/assets/11078225/21992823/fac7738e-dbe5-11e6-97ed-9982d4314153.png)
-
-![image](https://cloud.githubusercontent.com/assets/11078225/21992856/10494ba6-dbe6-11e6-9192-69f8b26e3ae8.png)
